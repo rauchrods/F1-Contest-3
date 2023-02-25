@@ -1,0 +1,43 @@
+.mycontainer{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 10px;
+    /* border:1px solid red; */
+}
+
+h2{
+
+}
+.somecontent{
+    /* border: 1px solid black; */
+    padding: 0px;
+}
+.cardcontainer{
+    /* border: 1px solid green; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px; 
+}
+.mycontainer>div>form{
+    margin:20px 1px;
+}
+.mycontainer>div>div{
+    margin:10px 1px;
+}
+@media screen and (max-width:768px){
+    .mycontainer{
+        margin-left: 5vw;
+    margin-right: 5vw;
+    }
+
+    .cardcontainer{
+        flex-direction: column;
+        justify-content: space-between;
+    align-items: center;
+    row-gap: 10px;
+    }
+}
